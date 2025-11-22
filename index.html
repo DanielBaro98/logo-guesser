@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="logoguess.css" />
+    <title>Document</title>
+    <title>Logo Guesser</title>
+  </head>
+  <body>
+    <div class="app-container">
+      <header>
+        <h1>Logo Guesser</h1>
+        <div class="score-container">Score: <span id="score">0</span></div>
+      </header>
+
+      <main class="game-card">
+        <div class="logo-container">
+          <img id="logo-img" src="" alt="Guess the logo" />
+          <div class="loader" id="loader"></div>
+        </div>
+
+        <div class="input-section">
+          <input
+            type="text"
+            id="guess-input"
+            placeholder="Gjett logoen..."
+            autocomplete="off"
+          />
+          <button id="submit-btn" class="btn primary">Gjett</button>
+        </div>
+
+        <div id="feedback" class="feedback-message"></div>
+
+        <button id="next-btn" class="btn secondary hidden">Neste logo</button>
+      </main>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
