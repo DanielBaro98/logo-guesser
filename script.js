@@ -1,13 +1,14 @@
 const logos = [
-  { id: 1, name: "bentley", src: "assets/bentley.svg" },
-  { id: 2, name: "chevrolet", src: "assets/chevrolet.svg" },
-  { id: 3, name: "ferrari", src: "assets/ferrari.svg" },
-  { id: 4, name: "hyundai", src: "assets/hyundai1362.jpg" },
-  { id: 5, name: "lamborghini", src: "assets/lambo.png" },
-  { id: 6, name: "mercedes", src: "assets/mercedes.svg" },
-  { id: 7, name: "tesla", src: "assets/Tesla_Motors.svg" },
-  { id: 8, name: "toyota", src: "assets/toyota.webp" },
-  { id: 9, name: "volkswagen", src: "assets/volkswagen.svg" },
+  { id: 1, name: "bentley", src: "Assets/bentley.svg" },
+  { id: 2, name: "chevrolet", src: "Assets/chevrolet.svg" },
+  { id: 3, name: "ferrari", src: "Assets/ferrari.svg" },
+  { id: 4, name: "hyundai", src: "Assets/hyundai1362.jpg" },
+  { id: 5, name: "lamborghini", src: "Assets/lambo.png" },
+  { id: 6, name: "mercedes", src: "Assets/mercedes.svg" },
+  { id: 7, name: "tesla", src: "Assets/Tesla_Motors.svg" },
+  { id: 8, name: "toyota", src: "Assets/toyota.webp" },
+  { id: 9, name: "volkswagen", src: "Assets/volkswagen.svg" },
+  { id: 10, name: "opel", src: "Assets/opel.svg" },
 ];
 
 let currentLogoIndex = 0;
